@@ -47,50 +47,49 @@ The data must be received by the machine to which data actually has been transmi
 	 -  **Adaptive Routing algorithm**: The routing decisions are made based on network traffic and topology. The parameters that are used in adaptive routing algorithms are distance, hop, estimated transit time and count.
 
 	-   **Non-Adaptive Routing algorithm**: The routing decisions are not made based on network traffic and topology. This algorithm is used by static routing. Non-adaptive routing algorithms are simple as compared to Adaptive routing algorithms in terms of complexity.
-	|Adaptive Routing algorithm|Non-Adaptive Routing algorithm|
-	|---|---|
-	|An adaptive algorithm involves routers for exchanging and updating router table data.|A non-adaptive algorithm involves a network administrator for the manual entry of the routing paths into the router.|
-	|This algorithm creates a routing table based on network conditions.|Whereas this algorithm creates a static table in order to determine when to send packets and which node.|
-	|This algorithm is used by dynamic routing.|Whereas this algorithm is used by static routing.|
-	|In adaptive routing algorithm, the routing decisions are made based on network traffic and topology.|Whereas in a non-adaptive routing algorithm, the routing decisions are not made based on network traffic and topology.|
-	|Adaptive routing algorithms are more complex as compared to non-adaptive routing algorithms in terms of complexity.|While non-adaptive routing algorithms are simple in terms of complexity.|
-	|In adaptive routing algorithm, the routing decisions are not static tables.|While in non-adaptive routing algorithm, the routing decisions are static tables.|
-	|Adaptive routing algorithm is categorized into distributed, centralized and isolation algorithm.|Whereas non-adaptive routing algorithm is categorized into random walks and flooding.|
-	|Adaptive routing algorithm is more used as compared to non-adaptive.|Whereas non-adaptive routing algorithm is comparatively less used.|
-	|The dynamic protocols are employed to update the routing table and determine the best route between the source and destination computers.|The manual setup is performed for establishing an optimal path between the source and destination computers.|
-	|It is mostly used for-<br><br>- Open, Complex network topologies|It is mostly used for-<br><br>- Simple, Closed network topologies|
-	|Purposes-<br><br>- Enhancement in network performance<br>- Prevents packet delivery failure<br>- Aid in controlling congestion|Purposes-<br><br>- It enables fine-grained control over packet paths.<br>- Suited for reliable networks with stable loads|
+	
+|Adaptive Routing algorithm|Non-Adaptive Routing algorithm|
+|---|---|
+|An adaptive algorithm involves routers for exchanging and updating router table data.|A non-adaptive algorithm involves a network administrator for the manual entry of the routing paths into the router.|
+|This algorithm creates a routing table based on network conditions.|Whereas this algorithm creates a static table in order to determine when to send packets and which node.|
+|This algorithm is used by dynamic routing.|Whereas this algorithm is used by static routing.|
+|In adaptive routing algorithm, the routing decisions are made based on network traffic and topology.|Whereas in a non-adaptive routing algorithm, the routing decisions are not made based on network traffic and topology.|
+|Adaptive routing algorithms are more complex as compared to non-adaptive routing algorithms in terms of complexity.|While non-adaptive routing algorithms are simple in terms of complexity.|
+|In adaptive routing algorithm, the routing decisions are not static tables.|While in non-adaptive routing algorithm, the routing decisions are static tables.|
+|Adaptive routing algorithm is categorized into distributed, centralized and isolation algorithm.|Whereas non-adaptive routing algorithm is categorized into random walks and flooding.|
+|Adaptive routing algorithm is more used as compared to non-adaptive.|Whereas non-adaptive routing algorithm is comparatively less used.|
+|The dynamic protocols are employed to update the routing table and determine the best route between the source and destination computers.|The manual setup is performed for establishing an optimal path between the source and destination computers.|
+|It is mostly used for-<br><br>- Open, Complex network topologies|It is mostly used for-<br><br>- Simple, Closed network topologies|
+|Purposes-<br><br>- Enhancement in network performance<br>- Prevents packet delivery failure<br>- Aid in controlling congestion|Purposes-<br><br>- It enables fine-grained control over packet paths.<br>- Suited for reliable networks with stable loads|
 	
 	
-	
-	
-	#### ****Advantages of Adaptive Routing Algorithms****
-	
-	- ****Dynamic:**** Adaptive routing algorithms can adjust to changing network conditions, such as traffic congestion, link failures, and topology changes, by selecting a better path for the data packets. This results in better network performance, higher throughput, and reduced latency.
-	- ****Load Balancing:**** Adaptive routing algorithms can distribute network traffic across multiple paths to avoid congestion and ensure that all network links are utilized efficiently.
-	- ****Fault Tolerance****: Adaptive routing algorithms can reroute data packets around network failures, which enhances network availability and reliability.
-	- ****Better Performance****: Adaptive routing algorithms can provide better network performance by selecting the shortest or the least congested path for the data packets.
-	
-	#### ****Disadvantages of Adaptive Routing Algorithms****
-	
-	- ****Complexity:**** Adaptive routing algorithms are more complex than non-adaptive algorithms, which makes them harder to implement and maintain.
-	- ****Overhead:**** Adaptive routing algorithms require more processing power and memory to execute, which can lead to increased overhead and resource utilization.
-	- ****Routing Loops:**** Adaptive routing algorithms may sometimes result in routing loops, which can cause data packets to be stuck in the network indefinitely.
-	- ****Delay****: Adaptive routing algorithms may introduce additional delay in the network due to the time required to calculate the best path for each data packet.
-	
-	####****Advantages of Non-Adaptive Routing Algorithms****
-	
-	- ****Simplicity****: Non-adaptive routing algorithms are simple to implement and maintain, which reduces the cost and complexity of the network infrastructure.
-	- ****Low Overhead:**** Non-adaptive routing algorithms require minimal processing power and memory to execute, which reduces the overhead and resource utilization.
-	- ****Avoid Routing Loops****: Non-adaptive routing algorithms are less likely to result in routing loops, which reduces the chances of data packets being stuck in the network indefinitely.
-	- ****Fast****: Non-adaptive routing algorithms can provide faster routing decisions since they do not require the calculation of the best path for each data packet.
-	
-	## ****Disadvantages of Non-Adaptive Routing Algorithms****
-	
-	- ****Inefficient****: Non-adaptive routing algorithms may select suboptimal paths for the data packets, which can result in congestion, longer latency, and reduced [throughput](https://www.geeksforgeeks.org/difference-between-bandwidth-and-throughput/).
-	- ****Inflexible****: Non-adaptive routing algorithms cannot adjust to changing network conditions, which may result in network failures, reduced performance, and increased latency.
-	- ****Unresponsive:**** Non-adaptive routing algorithms cannot respond to network faults, which may result in data packet loss and reduced network availability.
-	- ****Uneven Traffic Distribution:**** Non-adaptive routing algorithms may lead to uneven traffic distribution, which may result in some links being underutilized while others are congested.
+#### ****Advantages of Adaptive Routing Algorithms****
+
+- ****Dynamic:**** Adaptive routing algorithms can adjust to changing network conditions, such as traffic congestion, link failures, and topology changes, by selecting a better path for the data packets. This results in better network performance, higher throughput, and reduced latency.
+- ****Load Balancing:**** Adaptive routing algorithms can distribute network traffic across multiple paths to avoid congestion and ensure that all network links are utilized efficiently.
+- ****Fault Tolerance****: Adaptive routing algorithms can reroute data packets around network failures, which enhances network availability and reliability.
+- ****Better Performance****: Adaptive routing algorithms can provide better network performance by selecting the shortest or the least congested path for the data packets.
+
+#### ****Disadvantages of Adaptive Routing Algorithms****
+
+- ****Complexity:**** Adaptive routing algorithms are more complex than non-adaptive algorithms, which makes them harder to implement and maintain.
+- ****Overhead:**** Adaptive routing algorithms require more processing power and memory to execute, which can lead to increased overhead and resource utilization.
+- ****Routing Loops:**** Adaptive routing algorithms may sometimes result in routing loops, which can cause data packets to be stuck in the network indefinitely.
+- ****Delay****: Adaptive routing algorithms may introduce additional delay in the network due to the time required to calculate the best path for each data packet.
+
+####****Advantages of Non-Adaptive Routing Algorithms****
+
+- ****Simplicity****: Non-adaptive routing algorithms are simple to implement and maintain, which reduces the cost and complexity of the network infrastructure.
+- ****Low Overhead:**** Non-adaptive routing algorithms require minimal processing power and memory to execute, which reduces the overhead and resource utilization.
+- ****Avoid Routing Loops****: Non-adaptive routing algorithms are less likely to result in routing loops, which reduces the chances of data packets being stuck in the network indefinitely.
+- ****Fast****: Non-adaptive routing algorithms can provide faster routing decisions since they do not require the calculation of the best path for each data packet.
+
+## ****Disadvantages of Non-Adaptive Routing Algorithms****
+
+- ****Inefficient****: Non-adaptive routing algorithms may select suboptimal paths for the data packets, which can result in congestion, longer latency, and reduced [throughput](https://www.geeksforgeeks.org/difference-between-bandwidth-and-throughput/).
+- ****Inflexible****: Non-adaptive routing algorithms cannot adjust to changing network conditions, which may result in network failures, reduced performance, and increased latency.
+- ****Unresponsive:**** Non-adaptive routing algorithms cannot respond to network faults, which may result in data packet loss and reduced network availability.
+- ****Uneven Traffic Distribution:**** Non-adaptive routing algorithms may lead to uneven traffic distribution, which may result in some links being underutilized while others are congested.
 
 - **Repeater**: A repeater is placed between these two computers. When signal becomes weak, repeater makes it strong such that it reaches to the destination without any difficulty
 
