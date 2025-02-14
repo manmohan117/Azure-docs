@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure/Azure Overview.md",
+                "file": "Azure/Services/Azure virtual Machine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Azure Overview"
+              "title": "Azure virtual Machine"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure/Azure Overview.md",
+                "file": "Azure/Services/Azure virtual Machine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Azure Overview"
+              "title": "Backlinks for Azure virtual Machine"
             }
           },
           {
@@ -170,16 +170,17 @@
   },
   "active": "19f27f02717c1cb7",
   "lastOpenFiles": [
-    "Azure/Services/Azure virtual Machine.md",
+    "Miscellaneous/Everything about app Hosting.md",
     "Networking/Networking Fundamentals.md",
     "Miscellaneous/Everything about app Hosting..md",
+    "Azure/Azure Overview.md",
+    "Azure/Services/Azure virtual Machine.md",
     "Pasted image 20250214131204.png",
     "Untitled.md",
     "Miscellaneous",
     "Pasted image 20250212103233.png",
     "Pasted image 20250213171312.png",
     "Pasted image 20250213171208.png",
-    "Azure/Azure Overview.md",
     "index.md"
   ]
 }
