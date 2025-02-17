@@ -146,42 +146,16 @@ As an Azure Cloud Networking & Infrastructure expert, you’ll deal with project
 ### 6️⃣ Optimizing Cloud Costs & Performance
 
 📌 Project Type:
-
 -   
     Reducing network costs while improving performance.
-    
-
 🎯 Expectations from You:
-
 -   
     Analyze Azure Cost Management to optimize expenses.
-    
 -   
     Implement CDN, caching, and peering for better performance.
-    
 -   
     Recommend reserved instances and cost-effective connectivity solutions.
-    
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-# SERVICES THAT I MUST LEARN #services
-
-
----
+# SERVICES THAT I MUST LEARN #services 
 
 ## 🔹 1. Azure Virtual Network (VNet)
 
@@ -189,60 +163,42 @@ As an Azure Cloud Networking & Infrastructure expert, you’ll deal with project
 
 -   
     It’s the foundation of Azure networking—like a private data center in the cloud.
-    
 -   
     You need to connect, segment, and secure resources in Azure.
-    
-
 ✅ Key Concepts to Master:
-
 -   
-    Subnets, IP Addressing, VNet Peering, Service Endpoints, Private Link.
-    
+    Subnets, IP Addressing, VNet Peering, Service Endpoints, Private Link
 -   
     Network Security Groups (NSG), Application Security Groups (ASG).
-    
 -   
     Custom Routing, User-Defined Routes (UDR).
-    
 
 ---
 
 ## 🔹 2. Azure VPN Gateway & ExpressRoute
 
 🔹 Why It's Important?
-
 -   
     Enables secure hybrid connectivity between on-premises & Azure.
-    
 -   
     Used for site-to-site, point-to-site VPNs, and ExpressRoute (private connection).
-    
-
 ✅ Key Concepts to Master:
-
 -   
     S2S VPN, P2S VPN, ExpressRoute Circuits, BGP, VPN Policies.
-    
 -   
     Choosing the right SKU for performance & redundancy.
-    
 -   
     ExpressRoute Direct vs. ExpressRoute Standard vs. FastPath.
-    
 
 ---
 
 ## 🔹 3. Azure Load Balancers (LB)
 
 🔹 Why It's Important?
-
 -   
     Distributes traffic across multiple Azure resources for high availability.
-    
 -   
     You’ll use different types based on app needs (Layer 4 vs. Layer 7).
-    
 
 ✅ Key Concepts to Master:
 
