@@ -38,7 +38,7 @@ The data must be received by the machine to which data actually has been transmi
 - **Router**: Routers are mainly used to send the message from source machine to the destination machine. There is a large number of routers are connected among themselves. Hence, there may be several alternative paths from source router to the destination router. Router finds the best possible path between them using routing algorithms and routing table information. Router tables are used to stores information of other neighbour routers in the network. Router also can be used to connect LANs, MANs or WANs.
 
 	-  **Routing Algorithms**: Routing algorithms are important in the computation of the best routes through which data packets in a network should pass through. Depending on the nature of their implementation they are classified as Adaptive (Dynamic) and Non-Adaptive (Static).
-	![[Pasted image 20250213171208.png]]
+![Alt text](../images/Pasted%20image%2020250213171208.png)
 	- 
  - **Category 1:Algorithms that self-organize with reference to current network conditions
  
