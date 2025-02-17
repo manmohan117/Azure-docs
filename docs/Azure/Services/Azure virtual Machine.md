@@ -112,13 +112,13 @@ When you provision a VM, you’ll also have the chance to pick the resources tha
 
 - Navigate to Virtual Machines in Azure portal.
 
-![alt text](images/Pasted%20image%2020250217124224.png)
+![alt text](../../images/Pasted%20image%2020250217124224.png)
 
 - Click Create 
 	- you will have two options 
 		- create a virtual machine hosted by Azure (pre configured).
 		- create a virtual machine with preset configurations
-![alt text](images/Pasted%20image%2020250217124447.png)
+![alt text](../../images/Pasted%20image%2020250217124447.png)
 
 - Now you will see a configuration screen with following configurations 
 	- Basics 
@@ -129,7 +129,7 @@ When you provision a VM, you’ll also have the chance to pick the resources tha
 	- Advanced
 	- Tags
 	- Review + create.
-![alt text](images/Pasted%20image%2020250217124709.png)
+![alt text](../../images/Pasted%20image%2020250217124709.png)
 
 #### Basics
 	-project details
@@ -147,7 +147,7 @@ When you provision a VM, you’ll also have the chance to pick the resources tha
 		- image
 		- Vm architecture(Arm64 , x64)
 		- Enable Hibernation
--![alt text](images/Pasted%20image%2020250217125250.png)
+-![alt text](../../images/Pasted%20image%2020250217125250.png)
 	-Administrator account
 			authentication type 
 				-SSH public key
@@ -156,7 +156,7 @@ When you provision a VM, you’ll also have the chance to pick the resources tha
 			- SSH public key source
 			- SSH key type
 		-inpboud Port rules
--![alt text](images/Pasted%20image%2020250217125321.png)
+-![alt text](../../images/Pasted%20image%2020250217125321.png)
 
 #### Disks
 Azure VMs have one operating system disk and a temporary disk for short-term storage. You can attach additional data disks. The size of the VM determines the type of storage you can use and the number of data disks allowed.
@@ -168,7 +168,7 @@ Azure VMs have one operating system disk and a temporary disk for short-term sto
 	- delete with VM
 	- Enable Ultra Disk Capability
 	- Data disk (add or create disk).
-	![alt text](images/Pasted%20image%2020250217125844.png)
+	![alt text](../../images/Pasted%20image%2020250217125844.png)
 
 #### Networking
 Define network connectivity for your virtual machine by configuring network interface card (NIC) settings. You can control ports, inbound and outbound connectivity with security group rules, or place behind an existing load balancing solution.
@@ -179,24 +179,24 @@ Define network connectivity for your virtual machine by configuring network inte
 - public inbound port
 - Select inbound port
 
-![alt text](images/Pasted%20image%2020250217125936.png)
+![alt text](../../images/Pasted%20image%2020250217125936.png)
 
 - delete NIC when VM is deleted
 - Enable accelerated networking
 - Load Balancing
-- ![alt text](images/Pasted%20image%2020250217130128.png)
+- ![alt text](../../images/Pasted%20image%2020250217130128.png)
 
 #### Management 
--![alt text](images/Pasted%20image%2020250217130255.png)
--![alt text](images/Pasted%20image%2020250217130337.png)
--![alt text](images/Pasted%20image%2020250217130402.png)
+-![alt text](../../images/Pasted%20image%2020250217130255.png)
+-![alt text](../../images/Pasted%20image%2020250217130337.png)
+-![alt text](../../images/Pasted%20image%2020250217130402.png)
 
 if you fail to choose the options correctly 
 
-![alt text](images/Pasted%20image%2020250217130508.png)
+![alt text](../../images/Pasted%20image%2020250217130508.png)
 
 Now if VM is created.
-![alt text](images/Pasted%20image%2020250217170154.png)
+![alt text](../images/Pasted%20image%2020250217170154.png)
 
 	-Go to connect
 	-choose one of the method (common -> RDP (remote desktop protocol ))
